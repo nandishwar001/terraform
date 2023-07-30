@@ -9,7 +9,7 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "GITHUB_TOKEN"
+  token = "GITHUB_TOKEN" # or `GITHUB_TOKEN`
 }
 
 resource "github_repository" "terraform-learning" {

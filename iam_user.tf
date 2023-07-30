@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "testUser" {
-  name = "user1"
+  name = var.usernumber
 }
